@@ -1,71 +1,91 @@
-.container{
-    text-align: center; 
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
 }
-.title{
-    margin-top: 50px;
+
+.title {
+    margin-top: 30px;
     color: red;
     font-size: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
-.title span{
+
+.title span {
     color: blue;
     padding-left: 15px;
 }
-.reset{
+
+.title img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+}
+
+.reset {
     width: 200px;
     height: 50px;
     background-color: blue;
     color: red;
     font-weight: bold;
     font-size: 30px;
-    border-color: red;
+    border: 2px solid red;
     border-radius: 10px;
     cursor: pointer;
-    margin-top: 100px;
-    margin-left: 50px;
+    margin-top: 50px;
 }
-.board{
+
+.board {
     background-color: aqua;
-    height: 400px;
-    width: 400px;
+    width: 90vw;
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border-radius: 10px;
-    display: flex;
-    margin: auto;
+    margin: 20px auto;
 }
-.boxes{
-    display: flex;
-    height: 120px;
-    width: 120px;
+
+.boxes {
+    width: 28vw;
+    height: 28vw;
+    max-width: 120px;
+    max-height: 120px;
     background-color: blue;
-    border-radius: 30px;
-    border-color: red;
-    padding: 1em;
+    border-radius: 20px;
+    border: 2px solid red;
+    margin: 5px;
+    font-size: 2rem;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.title img{
-    width: 80px;
-    height: 80px;
-    padding:10px;
-}
-@media(max-width:600px) {
-    .title{
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .title img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .reset {
+        width: 120px;
+        height: 40px;
         font-size: 18px;
     }
-    .boxes{
-        margin-top: 20px;
-        width: 50px;
-        height: 50px;
-        margin-left: 10px;
-    }
-    .reset{
-        width: 100px;
-        height: 50px;
-        font-size: 20px;
-        margin-top: 50px;
-        margin-right: 50px;
-    }
-    .board{
-        height: 300px;
+
+    .boxes {
+        width: 22vw;
+        height: 22vw;
+        font-size: 1.5rem;
     }
 }
