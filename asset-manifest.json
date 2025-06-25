@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/TicTacToe-game/static/css/main.5a7b505f.css",
-    "main.js": "/TicTacToe-game/static/js/main.80cf29d4.js",
-    "static/js/453.5e6f9124.chunk.js": "/TicTacToe-game/static/js/453.5e6f9124.chunk.js",
+    "main.css": "/TicTacToe-game/static/css/main.39fc32d0.css",
+    "main.js": "/TicTacToe-game/static/js/main.63066ed2.js",
+    "static/js/317.d822a7d5.chunk.js": "/TicTacToe-game/static/js/317.d822a7d5.chunk.js",
     "static/media/circle.png": "/TicTacToe-game/static/media/circle.df21e4bb15f365122ced.png",
     "static/media/cross.png": "/TicTacToe-game/static/media/cross.b151039717c1757cadbf.png",
     "index.html": "/TicTacToe-game/index.html",
-    "main.5a7b505f.css.map": "/TicTacToe-game/static/css/main.5a7b505f.css.map",
-    "main.80cf29d4.js.map": "/TicTacToe-game/static/js/main.80cf29d4.js.map",
-    "453.5e6f9124.chunk.js.map": "/TicTacToe-game/static/js/453.5e6f9124.chunk.js.map"
+    "main.39fc32d0.css.map": "/TicTacToe-game/static/css/main.39fc32d0.css.map",
+    "main.63066ed2.js.map": "/TicTacToe-game/static/js/main.63066ed2.js.map",
+    "317.d822a7d5.chunk.js.map": "/TicTacToe-game/static/js/317.d822a7d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a7b505f.css",
-    "static/js/main.80cf29d4.js"
+    "static/css/main.39fc32d0.css",
+    "static/js/main.63066ed2.js"
   ]
 }
