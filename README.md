@@ -1,27 +1,26 @@
-# 🎮 Tic Tac Toe Game (React JS)
 
-A fun and simple Tic Tac Toe game built using **React JS**. Challenge a friend in a clean, responsive interface.
+---
 
-## 🚀 Features
+## ✅ 2. `tic-tac-toe-game-react` – README.md
 
-- Two-player turn-based gameplay
-- Automatic win detection for 8 winning combinations
-- Reset button to restart the game
-- Responsive layout
-- Uses React hooks (`useState`, `useRef`)
+```markdown
+# Tic Tac Toe Game – React
 
-## 🛠 Tech Stack
+A simple and interactive Tic Tac Toe game built with React.js.
 
-- React JS
-- JavaScript
-- HTML & CSS
+## 🔥 Features
+- Classic 3x3 grid
+- Two-player mode
+- Win/draw detection
+- Game reset
 
-## 📦 Installation & Running Locally
+## 💻 Tech Stack
+- React.js
+- CSS
 
-Clone the repository:
-
+## 🚀 Run Locally
 ```bash
-git clone https://github.com/prasad200904/TicTacToe-game.git
-cd TicTacToe-game
+git clone https://github.com/prasad200904/tic-tac-toe-game-react.git
+cd tic-tac-toe-game-react
 npm install
 npm start
