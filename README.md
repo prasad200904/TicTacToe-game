@@ -6,7 +6,7 @@ A classic 2-player **Tic Tac Toe game** built using **React.js**. This project d
 
 ## 🌐 Live Demo
 
-👉 [Play Live](https://your-live-demo-link.com)  
+👉 [Play Live](https://prasad200904.github.io/TicTacToe-game/)  
 *(Replace with your actual deployed link, e.g., from Vercel or Netlify)*
 
 ---
